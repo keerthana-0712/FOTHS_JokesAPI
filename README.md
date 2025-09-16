@@ -48,7 +48,7 @@ About Page <br />
 │── about.html <br />
 │── about.css <br />
 │── about.js <br />
-Products (Flame + To-Do List) <br />
+Products (Flame + To-Do List + Quiz + Joyful Giggles) <br />
 │── products.html <br />
 │── products.css <br />
 │── products.js <br />
@@ -56,6 +56,14 @@ To-Do List (standalone) <br />
 │── todolist.html <br />
 │── todolist.css <br />
 │── todolist.js <br />
+Quiz <br />
+|── quiz.html <br />
+|── quiz.css <br />
+|── quiz.js <br />
+Joyful Giggles <br />
+|── joyful-giggles.html <br />
+|── joyful-giggles.css <br />
+|── joyful-giggles.js <br />
 Contact Page <br />
 |── contact.html <br />
 |── contact.css <br />
@@ -117,11 +125,11 @@ Captured screenshots/GIFs for portfolio/demo purposes.
 **STATUS**	**FEATURE**
 ✅	       Homepage with animations
 ✅	       About page
-✅	       Products (Flame + To-Do List)
+✅	       Products (Flame + To-Do List + Quiz + Joyful Giggles)
 ✅	       Contact page
 ✅	       Fully responsive design
-🔜	        AI chatbot integration ("Chat with Flame")
-🔜	        Backend database for newsletter & contact form
+🔜	      AI chatbot integration ("Chat with Flame")
+🔜	      Backend database for newsletter & contact form
 ✅	       Enhanced animations for To-Do List & chatbot button
 
 

@@ -64,75 +64,101 @@ header {
   color: #a32020;
 }
 
-/* Products section */
-.products-container {
-  max-width: 1100px;
-  margin: 50px auto 50px;
+/* QUIZ */
+.quiz-container {
+  max-width: 700px;
+  margin: 70px auto 50px;
   padding: 20px;
   text-align: center;
 }
 
-.products-container h2 {
+.quiz-container h2 {
   font-size: 32px;
   color: #a32020;
-  margin-bottom: 10px;
 }
 
-.subtitle {
-  font-size: 18px;
-  color: #aaa;
-  margin-bottom: 40px;
-}
-
-/* Product cards grid */
-.products-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
-  justify-content: center;
-}
-
-.product-card {
+#quiz-box {
   background: #111;
+  padding: 50px;
   border: 1px solid rgba(255, 117, 24, 0.3);
   border-radius: 12px;
-  padding: 30px;
-  transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(255, 117, 24, 0.15);
 }
 
-.product-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 0 10px #a32020;
-}
-
-.product-card h3 {
-  color: #a32020;
-  font-size: 24px;
-  margin-bottom: 15px;
-}
-
-.product-card p {
-  font-size: 16px;
-  color: #ddd;
+#question {
+  font-size: 20px;
   margin-bottom: 20px;
 }
 
-.btn {
-  display: inline-block;
-  padding: 10px 20px;
-  background: #a32020;
-  color: #fff;
-  text-decoration: none;
+#options {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.option-btn {
+  background: #222;
+  border: 1px solid #a32020;
   border-radius: 6px;
-  font-weight: bold;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
   transition: background 0.3s;
 }
 
-.btn:hover {
+.option-btn:hover {
   background: #a32020;
+}
+
+.btn {
+  padding: 10px 20px;
+  background: #a32020;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn:hover {
   box-shadow: 0 0 10px #a32020;
 }
+
+.hidden {
+  display: none;
+}
+
+
+/* NEXT Button */
+#next-btn {
+  background-color: #333;   /* default button color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  float: right;             /* pushes button to right side */
+  margin-top: auto;
+  transition: background-color 0.3s ease;
+}
+
+#next-btn:hover {
+  background-color: #00bf00; /* lighter green on hover */
+}
+
+/* ✅ Correct & Wrong Answer Styles */
+.correct {
+  background-color: #000000 !important; /* green */
+  color: white;
+  border: none;
+}
+
+.wrong {
+  background-color: #bf0000 !important; /* red */
+  color: white;
+  border: none;
+}
+
 
 /* FOOTER */
 footer {
