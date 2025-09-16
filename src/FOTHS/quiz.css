@@ -131,30 +131,35 @@ header {
 
 /* NEXT Button */
 #next-btn {
-  background-color: #333;   /* default button color */
+  background-color: #333;
+  /* default button color */
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  float: right;             /* pushes button to right side */
+  float: right;
+  /* pushes button to right side */
   margin-top: auto;
   transition: background-color 0.3s ease;
 }
 
 #next-btn:hover {
-  background-color: #00bf00; /* lighter green on hover */
+  background-color: #00bf00;
+  /* lighter green on hover */
 }
 
 /* ✅ Correct & Wrong Answer Styles */
 .correct {
-  background-color: #000000 !important; /* green */
+  background-color: #000000 !important;
+  /* green */
   color: white;
   border: none;
 }
 
 .wrong {
-  background-color: #bf0000 !important; /* red */
+  background-color: #bf0000 !important;
+  /* red */
   color: white;
   border: none;
 }
