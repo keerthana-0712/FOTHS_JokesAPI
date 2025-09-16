@@ -13,7 +13,7 @@
 ![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-red?style=for-the-badge)
 
 
-This is the homepage project for **FOTHS**, featuring a modern design with animations and newsletter subscription.
+This is the project for **FOTHS**, featuring a modern design with animations and many more...
 
 ## 🚀 Features
 ### 🏠 Home
