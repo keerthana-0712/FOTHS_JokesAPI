@@ -127,6 +127,7 @@ Captured screenshots/GIFs for portfolio/demo purposes.
 ✅	       About page
 ✅	       Products (Flame + To-Do List + Quiz + Joyful Giggles)
 ✅	       Contact page
+✅	       Quiz page
 ✅	       Fully responsive design
 🔜	      AI chatbot integration ("Chat with Flame")
 🔜	      Backend database for newsletter & contact form
@@ -152,3 +153,4 @@ Captured screenshots/GIFs for portfolio/demo purposes.
 ### 👨‍💻 Author
 Keerthana Salla
 © 2025 FOTHS. All rights reserved.
+

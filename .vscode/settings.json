@@ -11,5 +11,6 @@
         "Telangana",
         "journaling",
         "todolist"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }
