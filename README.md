@@ -128,6 +128,7 @@ Captured screenshots/GIFs for portfolio/demo purposes.
 ✅	       Products (Flame + To-Do List + Quiz + Joyful Giggles)
 ✅	       Contact page
 ✅	       Quiz page
+✅	       Joyful-Giggles page
 ✅	       Fully responsive design
 🔜	      AI chatbot integration ("Chat with Flame")
 🔜	      Backend database for newsletter & contact form
